@@ -99,6 +99,7 @@ public class RobotContainer {
     // to deal with for the Romi), you can use the Units.inchesToMeters() method
     Trajectory exampleTrajectory = TrajectoryGenerator.generateTrajectory(
         // Start at the origin facing the +X direction
+        // Looks like a diamond
         new Pose2d(0, 0, new Rotation2d(0)),
         List.of(
             new Translation2d(0.5, 0.25),
